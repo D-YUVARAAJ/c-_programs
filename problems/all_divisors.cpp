@@ -15,7 +15,10 @@ int main()
         if(N%i ==0)
         {
             divisors.push_back(i);
+            if(i !=(N/i)){
+                
             divisors.push_back(N/i);
+            }
         }
     }
 
