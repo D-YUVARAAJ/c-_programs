@@ -1,0 +1,26 @@
+directly im inserting it in the file 
+im again directly inserting in the file 
+hello guys
+im scythe , i used to play many games
+in pc its valorant 
+in mobile its simcity builders
+other than these there are a lot more games that ill play
+now, see u all , im going to close this file now by pressing y button 
+bye byeeeee 
+directly im inserting it in the file 
+im again directly inserting in the file 
+
+
+
+
+
+
+
+hey guys!!!!
+im back
+i just appended instead of putting ios::out
+im i need to leave right now
+be sure to put append , so that the texzt gets continues every new time u open the file, if not the file will get overwritten if u kept ios::out
+byeeeeeeeeeeeeeeee
+directly im inserting it in the file 
+im again directly inserting in the file 
