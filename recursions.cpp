@@ -144,7 +144,7 @@ int main()
 
                                           //FACTORIAL OF A NUMBER
 
-
+/*
 
 int facto(int number)
 {
@@ -153,7 +153,7 @@ int facto(int number)
     return 1;
   }
   else{
-  return number * facto(number-1); 
+  return number * facto(number-1);
 
   }
 }
@@ -165,3 +165,38 @@ int main()
   cin>>number;
   cout<<"factorial of number is "<<facto(number)<<endl;
 }
+*/
+
+
+
+//factorial in array
+
+/*
+int facto(int number,vector<int> &factos)
+{
+  if(number==1)
+  {
+    factos.push_back(1);
+    return 1;
+  }
+  else{
+   
+    factos.push_back(number*facto(number-1,factos));
+    return factos.back();
+  }
+}
+
+int main()
+{
+  int number;
+  vector<int> factos;
+  cout<<"enter number to find factorial:";
+  cin>>number;
+  cout<<"factorial of number is "<<facto(number,factos)<<endl;
+
+  for(auto it: factos)
+  {
+    cout<<it<<" ";
+  }
+}
+*/
