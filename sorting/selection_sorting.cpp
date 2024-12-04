@@ -1,6 +1,9 @@
 #include<iostream>
 #include<vector>
-
+/*
+im using minimum bcoz instead of comparin 1st element with all and swapping eac time . i take 2st element compare with next
+then  i see which is minimum , then that minimum index is stores and checked with next next, last vara the min is founf 
+and stored , lsatly 1st index is swapped with the minimum index , ezzz bruh , just think u can do it and start grinding , forget ur lose , its more than 2 weeks :)*/
 void selection_sort(std::vector<int>&array)
 {
     for(int i=0;i<array.size()-1;i++)
